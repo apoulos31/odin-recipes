@@ -1,0 +1,48 @@
+.gaston-heading {
+    text-align: center;
+    color: #cf1e07;
+    font-family: Georgia, sans-serif;
+}
+
+.gaston-body {
+    background-color: #7a4100
+}
+
+a {
+    color: white;
+}
+
+.egg-recipe {
+    color: white;
+    font-family: Georgia, sans-serif;
+}
+
+.rat-heading { 
+    text-align: center;
+    color: #cf1e07;
+    font-family: Georgia, sans-serif;
+}
+
+.rat-body {
+    background-color: #6c0486
+}
+
+.rat-recipe {
+    color: white;
+    font-family: Georgia, sans-serif;
+}
+
+.grey-heading {
+    text-align: center;
+    color: #393753;
+    font-family: cursive;
+}
+
+.grey-body {
+    background-color: #afb0b8;
+}
+
+.grey-recipe {
+    color: #0a0a01;
+    font-family: georgia, sans-serif;
+}
