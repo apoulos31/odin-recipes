@@ -1,30 +1,83 @@
 body {
-    background-color: rgb(51, 7, 248);
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1624562654552-49ad4a35a576?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: cursive;
-    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
+    background-color: rgba(168, 188, 199, 0.800);
+    width: 800px;
+    border: 3px solid white;
+    border-top-width: 14px;
+    border-left-width: 14px;
 }
 
 a {
-    color: white;
+    color: maroon;
     font-size: 30px;
+    font-family: garamond;
+}
+
+.recipe-header {
+    display: flex;
+    justify-content: center;
 }
 
 h4 {
-    font-size: 40px;
-    margin-left: 200px;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgba(168, 188, 199, 0.800);
+    width: 270px;
+    border: 3px solid white;
+    border-bottom-width: 14px;
+    border-right-width: 14px
+}
+
+.pic-section {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
 }
 
 .princess {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    width: 550px;
+    height: 350px;
+    border: 3px solid white;
+    border-bottom-width: 14px;
+    border-right-width: 14px;
+    padding: 10px;
 }
 
-ul {
-    margin-left: 200px;
+.recipe-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.recipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(168, 188, 199, 0.800);
+    text-align: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px solid white;
+    border-bottom-width: 10px
+        
 }
