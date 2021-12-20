@@ -59,7 +59,7 @@ a {
 }
 
 .rat-heading { 
-     text-align: center;
+    text-align: center;
     font-family: cursive Georgia, sans-serif;
     font-size: 60px;
     background-color: white;
@@ -96,7 +96,7 @@ a {
 }
 
 .rat-recipe-text {
-      width: 400px;
+    width: 400px;
     background-color: white;
     padding: 5px;
     margin: 5px;
@@ -104,17 +104,55 @@ a {
     font-family: cursive Georgia, sans-serif;
 }
 
+.grey-header {
+    display: flex;
+    justify-content: center;
+}
+
 .grey-heading {
-    text-align: center;
-    color: #393753;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: cursive;
+    font-size: 60px;
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    border: 3px solid rgba(122, 114, 114, 0.609);
+    border-top-width: 14px;
+    border-left-width: 14px;
 }
 
 .grey-body {
-    background-color: #afb0b8;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1558998708-ed5f8eaf1af1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.grey-descript {
+    display: flex;
+    justify-content: center;
+}
+
+.grey-descript-text {
+    background-color: white;
+    width: 600px;
+    padding: 5px;
+    border: 3px solid rgba(122, 114, 114, 0.609);
+    font-family: cursive Georgia, sans-serif;
+}
 .grey-recipe {
-    color: #0a0a01;
-    font-family: georgia, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.grey-recipe-text {
+    width: 400px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid rgba(122, 114, 114, 0.609);
+    font-family: cursive Georgia, sans-serif;
 }
