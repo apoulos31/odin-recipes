@@ -53,19 +53,55 @@ a {
     font-family: cursive Georgia, sans-serif;
 }
 
+.rat-header {
+    display: flex;
+    justify-content: center;
+}
+
 .rat-heading { 
-    text-align: center;
-    color: #cf1e07;
-    font-family: Georgia, sans-serif;
+     text-align: center;
+    font-family: cursive Georgia, sans-serif;
+    font-size: 60px;
+    background-color: white;
+    width: 900px;
+    border: 3px solid rgba(255, 0, 0, 0.609);
+    border-top-width: 14px;
+    border-left-width: 14px;
 }
 
 .rat-body {
-    background-color: #6c0486
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1576237934915-c716cf54b24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudCUyMGtpdGNoZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rat-descript {
+    display: flex;
+    justify-content: center;
+}
+
+.rat-descript-text {
+    background-color: white;
+    width: 600px;
+    padding: 5px;
+    border: 3px solid rgba(255, 0, 0, 0.609);
+    font-family: cursive Georgia, sans-serif;
 }
 
 .rat-recipe {
-    color: white;
-    font-family: Georgia, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.rat-recipe-text {
+      width: 400px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid rgba(255, 0, 0, 0.609);
+    font-family: cursive Georgia, sans-serif;
 }
 
 .grey-heading {
